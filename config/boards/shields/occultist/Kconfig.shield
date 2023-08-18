@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_OCCULTIST_NORM_LEFT
-	def_bool $(shields_list_contains,piano_norm_left)
+	def_bool $(shields_list_contains,occultist_norm_left)
 
 config SHIELD_OCCULTSIT_NORM_RIGHT
-	def_bool $(shields_list_contains,piano_norm_right)
+	def_bool $(shields_list_contains,occultist_norm_right)
 
